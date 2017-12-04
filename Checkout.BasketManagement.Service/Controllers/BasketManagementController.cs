@@ -27,7 +27,7 @@ namespace Checkout.BasketManagement.Service.Controllers
         public IHttpActionResult ListOfItems(string category = "")
         {
             var manage = new ManageBasket(new Load());
-            return this.Ok(manage.FetchItemsInCategory(category));
+            return this.Ok(manage.FetchItemsByCategory(category));
         }
 
         /// <summary>

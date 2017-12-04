@@ -25,14 +25,28 @@ namespace Checkout.BasketManagement.Core
 
         private IBasketOperation<int, bool> removeOperation { get; set; }
 
+        /// <summary>
+        /// constructor to load items
+        /// </summary>
+        /// <param name="load"></param>
         public ManageBasket(Load load)
         {
             this.loadOperation = load;
         }
+
+        /// <summary>
+        /// contructor to add items in basket
+        /// </summary>
+        /// <param name="add"></param>
         public ManageBasket(Add add)
         {
             this.addOperation = add;
         }
+
+        /// <summary>
+        /// constructor to remove items from basket
+        /// </summary>
+        /// <param name="remove"></param>
         public ManageBasket(Remove remove)
         {
             this.removeOperation = remove;
@@ -45,7 +59,7 @@ namespace Checkout.BasketManagement.Core
         /// </summary>
         /// <param name="category"></param>
         /// <returns></returns>
-        public List<Item> FetchItemsInCategory(string category)
+        public List<Item> FetchItemsByCategory(string category)
         {
             if (string.IsNullOrEmpty(category))
                 return this.loadOperation.Operation(null);

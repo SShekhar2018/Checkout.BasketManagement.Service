@@ -15,10 +15,10 @@ namespace Checkout.BasketManagement.Service
             var thisAssembly = typeof(SwaggerConfig).Assembly;
 
             GlobalConfiguration.Configuration
-                .EnableSwagger(c =>
+                .EnableSwagger(config =>
                 {
-                    c.SingleApiVersion("v1", "API to manage basket items");
-                    c.IncludeXmlComments(GetXmlCommentsPath());
+                    config.SingleApiVersion("v1", "API to manage basket items");
+                    config.IncludeXmlComments(GetXmlCommentsPath());
                 })
                 .EnableSwaggerUi(c =>
                 {

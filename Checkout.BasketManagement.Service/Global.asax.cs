@@ -14,13 +14,8 @@ namespace Checkout.BasketManagement.Service
         public void Application_Start()
         {
             RouteTable.Routes.RouteExistingFiles = true;
-
             SwaggerConfig.Register();
-
             GlobalConfiguration.Configure(WebApiConfig.Register);
-            //RouteParameter..RegisterRoutes(RouteTable.Routes);
-            
-            //GlobalConfiguration.Configure(SwaggerConfig.Register);
         }
     }
 }

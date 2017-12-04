@@ -1,4 +1,5 @@
-﻿using Swashbuckle.Application;
+﻿using Checkout.BasketManagement.Core;
+using Swashbuckle.Application;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,8 +19,6 @@ namespace Checkout.BasketManagement.Service
             constraints: null,
             handler: new RedirectHandler(SwaggerDocsConfig.DefaultRootUrlResolver, "swagger/ui/index")
             );
-
-            
         }
     }
 }
