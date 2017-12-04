@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Items>
+  <Item>
+    <Id>1</Id>
+    <Name>
+      macbook air
+    </Name>
+    <Price>
+      1200
+    </Price>
+  </Item>
+  <Item>
+    <Id>2</Id>
+    <Name>
+      dell espirion
+    </Name>
+    <Price>
+      700
+    </Price>
+  </Item>
+  <Item>
+    <Id>3</Id>
+    <Name>
+      hp
+    </Name>
+    <Price>
+      540
+    </Price>
+  </Item>
+</Items>

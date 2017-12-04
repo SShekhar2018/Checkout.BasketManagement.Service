@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Items>
+  <Item>
+    <Id>4</Id>
+    <Name>
+      iphone 6
+    </Name>
+    <Price>
+      800
+    </Price>
+  </Item>
+  <Item>
+    <Id>5</Id>
+    <Name>
+      Samsung s8
+    </Name>
+    <Price>
+      700
+    </Price>
+  </Item>
+  <Item>
+    <Id>6</Id>
+    <Name>
+      Nokia S1
+    </Name>
+    <Price>
+      540
+    </Price>
+  </Item>
+</Items>

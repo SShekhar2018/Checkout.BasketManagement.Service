@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Items>
+  <Item>
+    <Id>7</Id>
+    <Name>
+      adidas
+    </Name>
+    <Price>
+      100
+    </Price>
+  </Item>
+  <Item>
+    <Id>8</Id>
+    <Name>
+      reebok
+    </Name>
+    <Price>
+      150
+    </Price>
+  </Item>
+  <Item>
+    <Id>9</Id>
+    <Name>
+      puma
+    </Name>
+    <Price>
+      90
+    </Price>
+  </Item>
+</Items>
